@@ -79,3 +79,6 @@ mlflow ui  # Открыть http://localhost:5000
 - [Netron](https://netron.app/): Визуализация нейросетевых моделей
 - [MLflow Docs](https://mlflow.org/docs/latest/index.html): Документация по трекингу экспериментов
 - [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents): Официальный репозиторий ML-Agents
+
+## Лицензия
+Этот проект распространяется под лицензией [MIT](https://opensource.org/licenses/MIT)
