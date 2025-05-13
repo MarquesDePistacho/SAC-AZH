@@ -56,7 +56,7 @@ mlflow ui  # Открыть http://localhost:5000
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/sofya-lyapunova">
+      <a href="https://github.com/LyaSofya">
         👩💻<br/>
         <b>Ляпунова С.А.</b>
       </a>
