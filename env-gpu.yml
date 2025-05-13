@@ -1,0 +1,21 @@
+name: rl-race-gpu
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=23.1
+  - numpy=1.21.1
+  - scikit-learn=0.24.2
+  - onnx=1.17.0
+  - gym=0.21.0
+  - pettingzoo=1.15.0
+  - protobuf=3.19.1
+  - matplotlib=3.4.3
+  - mlflow=1.23.0
+  - cudatoolkit=11.6
+  - pip:
+      - git+https://github.com/Unity-Technologies/ml-agents.git@release_20#egg=mlagents_envs&subdirectory=ml-agents-envs
+      - torch==1.12.1+cu116
+      - torchvision==0.13.1+cu116
+      - torchaudio==0.12.1

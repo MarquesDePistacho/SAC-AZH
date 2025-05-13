@@ -1,0 +1,11 @@
+stages:
+  - build
+
+build-docs:
+  stage: build
+  tags:
+    - build-docs-runner
+  script:
+    - docker compose up --build -d
+  only:
+    - master
